@@ -14,9 +14,9 @@ public class TkLoginTest extends TestBase{
 	@Test
 	public void tkLoginTest() throws InterruptedException{
 		log.debug("inside login test");
-		driver.findElement(By.xpath("//INPUT[@id='ttaipuser']")).sendKeys(" tookitakiuser");
+		driver.findElement(By.xpath("//INPUT[@id='ttaipuser']")).sendKeys(" nnnr");
 
-		driver.findElement(By.xpath("//INPUT[@id='ttaippass']")).sendKeys("Tookitaki123!");
+		driver.findElement(By.xpath("//INPUT[@id='ttaippass']")).sendKeys("bb");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//button[text()='Login']")).click();
 
