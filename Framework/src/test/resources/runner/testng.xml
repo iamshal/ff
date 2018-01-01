@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDriven">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="com.tk.listeners.CustomeListeners"/>
+  </listeners>
+
+
+  <test name="TkLoginTest">
+    <classes>
+      <class name="com.tk.testcases.TkLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <test name="AssembleDataUpload">
+    <classes>
+      <class name="com.tk.testcases.AssembleDataUpload"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  <test name="ExploreTest">
+    <classes>
+      <class name="com.tk.testcases.ExploreTest"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DataDriven]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.tk.listeners.CustomeListeners"/>
+  </listeners>
+  <test name="TkLoginTest(failed)">
+    <classes>
+      <class name="com.tk.testcases.TkLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tkLoginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tk.testcases.TkLoginTest -->
+    </classes>
+  </test> <!-- TkLoginTest(failed) -->
+  <test name="AssembleDataUpload(failed)">
+    <classes>
+      <class name="com.tk.testcases.AssembleDataUpload">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="assembleDataUpload"/>
+        </methods>
+      </class> <!-- com.tk.testcases.AssembleDataUpload -->
+    </classes>
+  </test> <!-- AssembleDataUpload(failed) -->
+  <test name="ExploreTest(failed)">
+    <classes>
+      <class name="com.tk.testcases.ExploreTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="exploreTest"/>
+        </methods>
+      </class> <!-- com.tk.testcases.ExploreTest -->
+    </classes>
+  </test> <!-- ExploreTest(failed) -->
+</suite> <!-- Failed suite [DataDriven] -->

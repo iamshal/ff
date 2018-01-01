@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DataDriven" duration-ms="40436" started-at="2017-12-09T05:34:21Z" finished-at="2017-12-09T05:35:01Z">
+    <groups>
+    </groups>
+    <test name="TkLoginTest" duration-ms="14244" started-at="2017-12-09T05:34:21Z" finished-at="2017-12-09T05:34:35Z">
+      <class name="com.tk.testcases.TkLoginTest">
+        <test-method status="PASS" signature="tkLoginTest()[pri:0, instance:com.tk.testcases.TkLoginTest@6e0e048a]" name="tkLoginTest" duration-ms="14220" started-at="2017-12-09T13:34:21Z" finished-at="2017-12-09T13:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tkLoginTest -->
+      </class> <!-- com.tk.testcases.TkLoginTest -->
+    </test> <!-- TkLoginTest -->
+    <test name="AssembleDataUpload" duration-ms="7749" started-at="2017-12-09T05:34:35Z" finished-at="2017-12-09T05:34:43Z">
+      <class name="com.tk.testcases.AssembleDataUpload">
+        <test-method status="PASS" signature="assembleDataUpload()[pri:0, instance:com.tk.testcases.AssembleDataUpload@9660f4e]" name="assembleDataUpload" duration-ms="7745" started-at="2017-12-09T13:34:35Z" finished-at="2017-12-09T13:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assembleDataUpload -->
+      </class> <!-- com.tk.testcases.AssembleDataUpload -->
+    </test> <!-- AssembleDataUpload -->
+    <test name="ExploreTest" duration-ms="18402" started-at="2017-12-09T05:34:43Z" finished-at="2017-12-09T05:35:01Z">
+      <class name="com.tk.testcases.ExploreTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tk.testcases.ExploreTest@4f063c0a]" name="setUp" is-config="true" duration-ms="10500" started-at="2017-12-09T13:34:11Z" finished-at="2017-12-09T13:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="exploreTest()[pri:0, instance:com.tk.testcases.ExploreTest@4f063c0a]" name="exploreTest" duration-ms="18387" started-at="2017-12-09T13:34:43Z" finished-at="2017-12-09T13:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tk.testcases.ExploreTest@4f063c0a]" name="tearDown" is-config="true" duration-ms="383" started-at="2017-12-09T13:35:02Z" finished-at="2017-12-09T13:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tk.testcases.ExploreTest -->
+    </test> <!-- ExploreTest -->
+  </suite> <!-- DataDriven -->
+</testng-results>
